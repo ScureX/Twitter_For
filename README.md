@@ -2,6 +2,8 @@
 Lets you write Tweets/replies while using the Twitter API. If you name a Twitter app "Twitter for <funny name>" it will show under the Tweet
 
 # Usage
+fill in your API Keys in "twitter_credentials.py"
+
 open via CMD/Termux/Terminal
 
 tweet = the message you want to tweet (required)
