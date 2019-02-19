@@ -1,6 +1,9 @@
 # Twitter_For
 Lets you write Tweets/replies while using the Twitter API. If you name a Twitter app "Twitter for <funny name>" it will show under the Tweet
 
+My Twitteracc: @GodOfLoliLewds
+
+Special Thanks to Tobi (@minTodroid) for helping my stupid ass
 # Requirements
 Python 3
 
