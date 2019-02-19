@@ -10,7 +10,14 @@ api = tweepy.API(auth)
 # # TWEET # #
 
 tweet = input("Tweet: ")
-reply = input("Reply to: ")
+reply = input("Reply:")
+user = input("User:")
 
-api.update_status(status =(tweet), in_reply_to_status_id =(reply))
+length = 28 + len(user)
+print(length)
+
+replyF = reply[length:]
+print(replyF)
+
+api.update_status(status =(tweet), in_reply_to_status_id =(replyF))
 print ("-------successfully sent-------")
