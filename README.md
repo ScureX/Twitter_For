@@ -3,6 +3,9 @@ Lets you write Tweets/replies while using the Twitter API. If you name a Twitter
 
 # Usage
 open via CMD/Termux/Terminal
+
 tweet = the message you want to tweet (required)
+
 reply = a link to the tweet you want to reply to (optional)
+
 user = the screen name (@name without @) of the user that you want to reply to (required if you reply to a tweet)
