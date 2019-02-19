@@ -13,6 +13,7 @@ open cmd and find the "Scrips" folder made by python
 
 write: pip install tweepy
 
+-----------------------------------------------------------------
 
 Linux/Termux:
 
@@ -23,10 +24,34 @@ write: git clone https://www.github.com/scurex/twitter_for
        cd twitter_for
        
        pip install tweepy
-       
-# Usage
+
+# Installation of API
 fill in your API Keys in "twitter_credentials.py"
 
+Windows:
+
+open the Twitter_for-master Folder
+
+rightclick the twitter_credentials.py file
+
+click on "Edit with IDLE"
+
+fill in your keys
+
+-----------------------------------------------------------------
+
+Linux:
+
+open folder
+
+rightclick the twitter_credentials.py file
+
+click on "Edit with Texteditor"
+
+fill in your keys
+
+
+# Usage
 open via CMD/Termux/Terminal
 
 tweet = the message you want to tweet (required)
