@@ -1,6 +1,24 @@
 # Twitter_For
 Lets you write Tweets/replies while using the Twitter API. If you name a Twitter app "Twitter for <funny name>" it will show under the Tweet
 
+# Requirements
+Python 3
+
+# Installation
+Windows:
+
+Install Python
+
+open cmd and find the "Scrips" folder made by python
+
+write: pip install tweepy
+
+
+Linux/Termux:
+
+open terminal
+
+write: git clone https://www.github.com/scurex/twitter_for 
 # Usage
 fill in your API Keys in "twitter_credentials.py"
 
