@@ -11,7 +11,7 @@ Install Python
 
 open cmd and find the "Scrips" folder made by python
 
-write: pip install tweepy
+       pip install tweepy
 
 -----------------------------------------------------------------
 
@@ -19,7 +19,7 @@ Linux/Termux:
 
 open terminal
 
-write: git clone https://www.github.com/scurex/twitter_for 
+       git clone https://www.github.com/scurex/twitter_for 
 
        cd twitter_for
        
