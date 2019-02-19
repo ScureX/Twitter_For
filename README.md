@@ -19,6 +19,11 @@ Linux/Termux:
 open terminal
 
 write: git clone https://www.github.com/scurex/twitter_for 
+
+       cd twitter_for
+       
+       pip install tweepy
+       
 # Usage
 fill in your API Keys in "twitter_credentials.py"
 
