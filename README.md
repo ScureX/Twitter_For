@@ -3,7 +3,7 @@ Lets you write Tweets/replies while using the Twitter API. If you name a Twitter
 
 My Twitteracc: @GodOfLoliLewds
 
-Special Thanks to Tobi (@minTodroid) for helping my stupid ass
+Special thanks to Tobi (@minTodroid) for helping my stupid ass
 # Requirements
 Python 3
 
