@@ -9,7 +9,7 @@ Windows:
 
 Install Python
 
-open cmd and find the "Scrips" folder made by python
+open cmd and find the "Scripts" folder made by python
 
        pip install tweepy
 
