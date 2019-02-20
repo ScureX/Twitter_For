@@ -1,11 +1,31 @@
 import tweepy
 import twitter_credentials as tc
 
+
+####################################################################
+
+
 # # AUTH # #
 
 auth = tweepy.OAuthHandler(tc.CONSUMER_KEY, tc.CONSUMER_SECRET)
 auth.set_access_token(tc.ACCESS_TOKEN, tc.ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
+
+
+###################################################################
+
+
+# # COLORS # #
+
+Green="\033[1;33m"
+Blue="\033[1;34m"
+Grey="\033[1;30m"
+Reset="\033[0m"
+Red="\033[1;31m"
+
+
+###################################################################
+
 
 # # TWEET # #
 
@@ -16,7 +36,9 @@ loop = True
 while loop:
 
 # inputs #
- print('www.github.com/scurex')
+ print("####################################### \n")
+ print('#    made by www.github.com/scurex    #')
+ print("#######################################")
  
  tweet = input("Tweet: ")
  reply = input("Reply: ")
@@ -70,6 +92,6 @@ while loop:
     else:
         print(retry + (" is not an available option"))
         break
+
  
-    
-    
+###################################################################
